@@ -51,7 +51,7 @@ header .container {
     align-items: flex-start;
 }
 
-.filme-principal .descricao{
+.filme-principal .descricao {
     margin-top: 10px;
     margin-bottom: 40px;
 }
@@ -62,7 +62,7 @@ header .container {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.botao{
+.botao {
     background-color: rgba(0, 0, 0, .50);
     border: none;
     color: white;
@@ -73,20 +73,26 @@ header .container {
     transition: .3s ease all;
 }
 
-.botao:hover{
+.botao:hover {
     background-color: white;
     color: black;
 }
 
-.botao i{
+.botao i {
     margin-right: 6px;
 }
 
-.container{
+.container {
     margin-left: 30px;
     margin-right: 30px;
 }
 
-.filme-principal .container{
+.filme-principal .container {
     width: 60%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
